@@ -1,6 +1,6 @@
 # ☸️ AKS Infrastructure – Terraform Import & Data Sources
 
-Este repositorio contiene una configuración de **Terraform** para conectarse e importar información de un clúster existente de **Azure Kubernetes Service (AKS)**, permitiendo:
+Este repositorio contiene una configuración de **Terraform** para conectarse e importar información de un clúster existente previamente creado desde la GUI de Azure con **Azure Kubernetes Service (AKS)**, permitiendo:
 
 - Consultar datos del clúster y *node pools* vía **data sources**.
 - Exportar el **kubeconfig** (`kube_config_raw`) para conexión con `kubectl`.
